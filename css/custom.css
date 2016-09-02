@@ -1,0 +1,15 @@
+body{
+  background: white;
+}
+iframe{
+  overflow: hidden;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+p.intro{
+  text-align: center;
+  background: white;
+  margin-top: 50px;
+}

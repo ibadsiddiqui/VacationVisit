@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>sale</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="cs/custom.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+    body,ul{
+      border:none;
+      background: white;
+    }
+    ul.img-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        float: left;
+        margin: 10px 30px auto 180px;
+    }
+
+    ul.img-list li {
+        display: inline-block;
+        height: 150px;
+        margin: 0 10em 1em 0;
+        position: relative;
+        width: 150px
+    }
+
+    a>img {
+        width: 250px;
+        height: 150px;
+    }
+
+    span.text-content {
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 30px;
+        color: white;
+        display: table;
+        line-height: 150px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        margin-left: 21px;
+        width: 240px;
+        opacity: 0;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+    }
+
+    span.text-content span {
+        display: table-cell;
+        text-align: center;
+    }
+
+    ul.img-list li:hover span.text-content {
+        opacity: .8;
+    }
+
+    </style>
+  </head>
+  <body>
+    <ul class="img-list">
+          <li>
+              <a href="#">
+                  <img src="images/rest1.jpg">
+                  <span class="text-content"><span>PARIS</span></span>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <img src="images/rest2.jpg">
+                  <span class="text-content"><span>DUBAI</span></span>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <img src="images/hotel.jpg">
+                  <span class="text-content"><span>LONDON</span></span>
+              </a>
+          </li>
+          <li>
+              <a href="#">
+                  <img src="images/NY.jpg">
+                  <span class="text-content"><span>NYC</span></span>
+              </a>
+          </li>
+
+      </ul>
+  </body>
+</html>
